@@ -1,80 +1,76 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- metas -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="School Responsive HTML5 Template">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<!-- Title -->
+    <!-- <title>{{ config('app.name', 'Laravel') }}</title> -->
+    <title>@yield('title')</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="{{asset('fontend')}}/assets/images/favicon.png" />
+	<!-- Stylesheet -->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/bootstrap.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/fontawesome.min.css">
+	<!-- normalize -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/normalize.css">
+	<!-- Jquery Ul -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/jquery-ui.min.css">
+	<!-- Jquery Ui Theme -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/jquery-ui.theme.min.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/magnific-popup.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/owl.carousel.min.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/responsive.css">
 </head>
+
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+	<!--[if IE]>
+    		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  		<![endif]-->
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
+	<!-- Start header Area -->
+	@include('layouts/share/header')
+	<!-- End Header Area -->
 
-                    </ul>
+    @yield('content')
 
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
+	<!-- Start Footer Area -->
+	@include('layouts/share/footer')
+	<!-- End Footer Area -->
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
+	<!-- Js Files -->
+	<!-- modernizr -->
+	<script src="{{asset('fontend')}}/assets/js/vendor/modernizr-3.8.0.min.js"></script>
+	<!-- jQuery -->
+	<script src="{{asset('fontend')}}/assets/js/vendor/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap Popper -->
+	<script src="{{asset('fontend')}}/assets/js/popper.js"></script>
+	<!-- Bootstrap -->
+	<script src="{{asset('fontend')}}/assets/js/bootstrap.min.js"></script>
+	<!-- jquery ui -->
+	<script src="{{asset('fontend')}}/assets/js/jquery-ui.min.js"></script>
+	<!-- tickerNews -->
+	<script src="{{asset('fontend')}}/assets/js/jquery.tickerNews.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="{{asset('fontend')}}/assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="{{asset('fontend')}}/assets/js/owl.carousel.min.js"></script>
+
+	<!-- Custom Scripts -->
+	<script src="{{asset('fontend')}}/assets/js/custom.js"></script>
 </body>
+
 </html>

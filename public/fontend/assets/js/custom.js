@@ -24,7 +24,7 @@ $(document).ready(function(){
 	});
 	$(' ul li').click(function(){
 		$('.menubar ul .click-drop').slideToggle();
-		return false;
+		// return false;
 	});
 	$('.crossbar').on('click',function(){
 		$('.mobile-menubar').removeClass('canvas-menu');

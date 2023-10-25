@@ -9,6 +9,12 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/online-registration', function () {
+    return view('online-registration');
+});
+Route::get('/faq', function () {
+    return view('faq');
+});
 
 
 Auth::routes();

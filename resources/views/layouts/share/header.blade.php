@@ -62,14 +62,24 @@
 							
 							<li><a href="#">Admission</a>
 								<ul class="school-dropdown">
-									<li><a href="#">dropdown Item 01</a></li>
-									<li><a href="#">dropdown Item 01</a></li>
-									<li><a href="#">dropdown Item 01</a></li>
-									<li><a href="#">dropdown Item 01</a></li>
+									<li><a href="admission-notice">Admission Notice</a></li>
+									<li><a href="admission-prospectus">Admission Prospectus</a></li>
+									<li><a href="online-registration">Online Registration</a></li>
+									<li><a href="admission-reuslt">Admission Result</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Students</a></li>
-							<li><a href="#">Result</a></li>
+							<li><a href="#">Pages</a>
+								<ul class="school-dropdown">
+									<li><a href="#">Teachers</a></li>
+									<li><a href="#">Students</a></li>
+									<li><a href="#">Admit Card</a></li>
+									<li><a href="#">Exam Result</a></li>
+									<li><a href="#">Exam Routine</a></li>
+									<li><a href="faq">FAQ</a></li>
+								</ul>
+							</li>
+							<!-- <li><a href="#">Students</a></li> -->
+							<!-- <li><a href="#">Result</a></li> -->
 							<li><a href="#">Notice</a></li>
 							<li><a href="#">Contact Us</a></li>
 						</ul>

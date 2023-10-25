@@ -9,8 +9,8 @@
 	<meta name="description" content="School Responsive HTML5 Template">
 
 	<!-- Title -->
-    <!-- <title>{{ config('app.name', 'Laravel') }}</title> -->
-    <title>@yield('title')</title>
+	<!-- <title>{{ config('app.name', 'Laravel') }}</title> -->
+	<title>@yield('title')</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="{{asset('fontend')}}/assets/images/favicon.png" />
 	<!-- Stylesheet -->
@@ -32,6 +32,9 @@
 	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="{{asset('fontend')}}/assets/css/responsive.css">
+	<!-- Tailwind & DaisyUI CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css" rel="stylesheet" type="text/css" />
+	
 </head>
 
 <body>
@@ -43,7 +46,7 @@
 	@include('layouts/share/header')
 	<!-- End Header Area -->
 
-    @yield('content')
+	@yield('content')
 
 
 
@@ -71,6 +74,7 @@
 
 	<!-- Custom Scripts -->
 	<script src="{{asset('fontend')}}/assets/js/custom.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>

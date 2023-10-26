@@ -62,10 +62,10 @@
 							
 							<li><a href="#">Admission</a>
 								<ul class="school-dropdown">
-									<li><a href="admission-notice">Admission Notice</a></li>
-									<li><a href="admission-prospectus">Admission Prospectus</a></li>
-									<li><a href="online-registration">Online Registration</a></li>
-									<li><a href="admission-reuslt">Admission Result</a></li>
+									<li><a href="/admission/admission-notice">Admission Notice</a></li>
+									<li><a href="/admission/admission-prospectus">Admission Prospectus</a></li>
+									<li><a href="/admission/online-registration">Online Registration</a></li>
+									<li><a href="/admission/admission-result">Admission Result</a></li>
 								</ul>
 							</li>
 							<li><a href="#">Pages</a>
@@ -80,8 +80,8 @@
 							</li>
 							<!-- <li><a href="#">Students</a></li> -->
 							<!-- <li><a href="#">Result</a></li> -->
-							<li><a href="#">Notice</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="{{url('/notice')}}">Notice</a></li>
+							<li><a href="{{url('/contact')}}">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>

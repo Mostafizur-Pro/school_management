@@ -4,7 +4,7 @@
 @section('content')
 
 
-<div class="text-sm breadcrumbs">
+<div class="text-sm breadcrumbs container">
     <ul>
         <li>
             <a href="{{url('/')}}">
@@ -32,7 +32,7 @@
     </ul>
 </div>
 
-<div class="col-xl-8 col-lg-8">
+<div class="col-xl-8 col-lg-8 container">
     <div class="left-area">
         <div class="row">
             <div class="col-xl-12">

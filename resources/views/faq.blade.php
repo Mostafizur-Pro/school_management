@@ -5,7 +5,7 @@
 
 <div class="mx-10">
 
-    <div class="text-sm breadcrumbs">
+    <div class="text-sm breadcrumbs container">
         <ul>
             <li>
                 <a href="{{url('/')}}">
@@ -26,14 +26,44 @@
     </div>
 
 
-    <div class="text-justify my-10">
-        <h1 class="text-xl font-bold mb-2">Frequently Asked Questions</h1>
-        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
-        <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+    <div class="bg-gray-100 min-h-screen py-8">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-semibold text-center mb-8">Frequently Asked Questions</h1>
+
+            <div class="text-justify my-10">
+                <h2 class="text-xl font-semibold mb-4">General Questions</h2>
+
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold">1. What is STEP TO SUCCESS SCHOOL?</h3>
+                    <p>STEP TO SUCCESS SCHOOL is a leading educational institution committed to providing quality education and fostering holistic development in students. We inspire and empower our students to become responsible global citizens, lifelong learners, and compassionate leaders.</p>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold">2. How can I contact the school?</h3>
+                    <p>If you have any questions or need to get in touch with us, you can reach us via email at <a href="mailto:info@step2successschool.com" class="text-blue-600">info@step2successschool.com</a>. Alternatively, you can call us at (123) 456-7890.</p>
+                </div>
+
+                <!-- Add more general questions here -->
+
+                <h2 class="text-xl font-semibold mb-4">Admissions</h2>
+
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold">1. How do I apply for admission to the school?</h3>
+                    <p>Our admissions process is straightforward. You can start by filling out our online application form on our website. Once your application is received, our admissions team will guide you through the next steps.</p>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold">2. What are the admission requirements?</h3>
+                    <p>Admission requirements may vary by grade level. Please visit our <a href="{{url('/admissions')}}" class="text-blue-600">Admissions page</a> for detailed information on admission requirements for each grade.</p>
+                </div>
+
+                <!-- Add more admissions-related questions here -->
+            </div>
+        </div>
     </div>
 
 
-  
+
 
 
 

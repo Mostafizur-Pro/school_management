@@ -46,6 +46,7 @@ Route::group(['prefix' => '/page', 'namespace' => 'admission'], function () {
     });
    
 });
+
 Route::group(['prefix' => '/admission', 'namespace' => 'admission'], function () {
 
     Route::get('/admission-notice', function () {

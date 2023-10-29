@@ -53,21 +53,21 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <!-- Team Member 1 -->
                 <div class="card shadow-lg p-4">
-                    <img src="https://example.com/team-member-1.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                    <img src="public/image/teacher/haris-2023-04-02.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
                     <h3 class="text-lg font-semibold mb-2">John Doe</h3>
                     <p class="text-gray-600">Principal</p>
                 </div>
 
                 <!-- Team Member 2 -->
                 <div class="card shadow-lg p-4">
-                    <img src="https://example.com/team-member-2.jpg" alt="Team Member 2" class="w-32 h-32 rounded-full mb-4">
+                <img src="public/image/teacher/jeams-2023-04-17.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
                     <h3 class="text-lg font-semibold mb-2">Jane Smith</h3>
                     <p class="text-gray-600">Head of Curriculum</p>
                 </div>
 
                 <!-- Team Member 3 -->
                 <div class="card shadow-lg p-4">
-                    <img src="https://example.com/team-member-3.jpg" alt="Team Member 3" class="w-32 h-32 rounded-full mb-4">
+                <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
                     <h3 class="text-lg font-semibold mb-2">Michael Johnson</h3>
                     <p class="text-gray-600">Admissions Coordinator</p>
                 </div>

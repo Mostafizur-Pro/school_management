@@ -70,12 +70,12 @@
 							</li>
 							<li><a href="#">Pages</a>
 								<ul class="school-dropdown">
-									<li><a href="#">Teachers</a></li>
-									<li><a href="#">Students</a></li>
-									<li><a href="#">Admit Card</a></li>
-									<li><a href="#">Exam Result</a></li>
-									<li><a href="#">Exam Routine</a></li>
-									<li><a href="faq">FAQ</a></li>
+									<li><a href="/page/teachers">Teachers</a></li>
+									<li><a href="/page/students">Students</a></li>
+									<li><a href="/page/admit-card">Admit Card</a></li>
+									<li><a href="/page/exam-result">Exam Result</a></li>
+									<li><a href="/page/exam-routine">Exam Routine</a></li>
+									<li><a href="/page/faq">FAQ</a></li>
 								</ul>
 							</li>
 							<!-- <li><a href="#">Students</a></li> -->

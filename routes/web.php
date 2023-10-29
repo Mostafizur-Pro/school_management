@@ -16,14 +16,36 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/faq', function () {
-    return view('faq');
-});
+// Route::get('/faq', function () {
+//     return view('layouts.page.faq');
+// });
 
 
 Auth::routes();
 
 
+Route::group(['prefix' => '/page', 'namespace' => 'admission'], function () {
+
+    Route::get('/teachers', function () {
+        return view('layouts.page.teachers');
+    });
+    Route::get('/students', function () {
+        return view('layouts.page.students');
+    });
+    Route::get('/admit-card', function () {
+        return view('layouts.page.admit-card');
+    });
+    Route::get('/exam-result', function () {
+        return view('layouts.page.exam-result');
+    });
+    Route::get('/exam-routine', function () {
+        return view('layouts.page.exam-routine');
+    });
+    Route::get('/faq', function () {
+        return view('layouts.page.faq');
+    });
+   
+});
 Route::group(['prefix' => '/admission', 'namespace' => 'admission'], function () {
 
     Route::get('/admission-notice', function () {

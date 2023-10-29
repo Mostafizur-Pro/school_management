@@ -39,44 +39,45 @@
             <h1 class="text-3xl font-semibold text-center mb-8">Our Students</h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Teacher Card 1 -->
+                <!-- Student Card 1 -->
                 <div class="rounded-lg bg-white shadow-lg p-4">
-                    <img src="/public/image/teacher/haris-2023-04-02.jpg" alt="Teacher 1" class="w-full h-auto rounded-md mb-4">
-                    <h2 class="text-lg font-semibold mb-2">Teacher Name 1</h2>
+                    <img src="/public/image/student/student1.jpg" alt="Student 1" class="w-full h-auto rounded-md mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Student Name 1</h2>
                     <p class="text-gray-600">Subject/Department: [Insert Subject/Department]</p>
-                    <p class="text-gray-600">Email: <a href="mailto:teacher1@email.com" class="text-blue-600">teacher1@email.com</a></p>
+                    <p class="text-gray-600">Email: <a href="mailto:Student1@email.com" class="text-blue-600">Student1@email.com</a></p>
                 </div>
 
-                <!-- Teacher Card 2 -->
+                <!-- Student Card 2 -->
                 <div class="rounded-lg bg-white shadow-lg p-4">
-                    <img src="/public/image/teacher/jeams-2023-04-17.jpg"alt="Teacher 2" class="w-full h-auto rounded-md mb-4">
-                    <h2 class="text-lg font-semibold mb-2">Teacher Name 2</h2>
+                    <img src="/public/image/student/student2.png" alt="Student 2" class="w-full h-auto rounded-md mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Student Name 2</h2>
                     <p class="text-gray-600">Subject/Department: [Insert Subject/Department]</p>
-                    <p class="text-gray-600">Email: <a href="mailto:teacher2@email.com" class="text-blue-600">teacher2@email.com</a></p>
+                    <p class="text-gray-600">Email: <a href="mailto:Student2@email.com" class="text-blue-600">Student2@email.com</a></p>
                 </div>
 
-                <!-- Teacher Card 3 -->
+                <!-- Student Card 3 -->
                 <div class="rounded-lg bg-white shadow-lg p-4">
-                    <img src="/public/image/teacher/jell-2023-04-16.jpg" alt="Teacher 3" class="w-full h-auto rounded-md mb-4">
-                    <h2 class="text-lg font-semibold mb-2">Teacher Name 3</h2>
+                    <img src="/public/image/student/student3.jpg" alt="Student 3" class="w-full h-auto rounded-md mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Student Name 3</h2>
                     <p class="text-gray-600">Subject/Department: [Insert Subject/Department]</p>
-                    <p class="text-gray-600">Email: <a href="mailto:teacher3@email.com" class="text-blue-600">teacher3@email.com</a></p>
+                    <p class="text-gray-600">Email: <a href="mailto:Student3@email.com" class="text-blue-600">Student3@email.com</a></p>
                 </div>
-                <!-- Teacher Card 4 -->
+                <!-- Student Card 4 -->
                 <div class="rounded-lg bg-white shadow-lg p-4">
-                    <img src="/public/image/teacher/zabrin-2023-04-02.jpeg" alt="Teacher 3" class="w-full h-auto rounded-md mb-4">
-                    <h2 class="text-lg font-semibold mb-2">Teacher Name 3</h2>
+                    <img src="/public/image/student/student2.png" alt="Student 2" class="w-full h-auto rounded-md mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Student Name 2</h2>
                     <p class="text-gray-600">Subject/Department: [Insert Subject/Department]</p>
-                    <p class="text-gray-600">Email: <a href="mailto:teacher3@email.com" class="text-blue-600">teacher3@email.com</a></p>
+                    <p class="text-gray-600">Email: <a href="mailto:Student2@email.com" class="text-blue-600">Student2@email.com</a></p>
                 </div>
-                    <!-- Teacher Card 5 -->
-                    <div class="rounded-lg bg-white shadow-lg p-4">
-                    <img src="/public/image/teacher/haris-2023-04-02.jpg" alt="Teacher 1" class="w-full h-auto rounded-md mb-4">
-                    <h2 class="text-lg font-semibold mb-2">Teacher Name 1</h2>
+
+                <!-- Student Card 5 -->
+                <div class="rounded-lg bg-white shadow-lg p-4">
+                    <img src="/public/image/student/student3.jpg" alt="Student 3" class="w-full h-auto rounded-md mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Student Name 3</h2>
                     <p class="text-gray-600">Subject/Department: [Insert Subject/Department]</p>
-                    <p class="text-gray-600">Email: <a href="mailto:teacher1@email.com" class="text-blue-600">teacher1@email.com</a></p>
+                    <p class="text-gray-600">Email: <a href="mailto:Student3@email.com" class="text-blue-600">Student3@email.com</a></p>
                 </div>
-                <!-- Add more teacher cards as needed -->
+                <!-- Add more Student cards as needed -->
             </div>
         </div>
     </div>

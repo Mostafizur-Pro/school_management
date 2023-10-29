@@ -4,7 +4,6 @@
 @section('content')
 
 <div class="mx-10">
-
     <div class="text-sm breadcrumbs container">
         <ul>
             <li>
@@ -32,23 +31,38 @@
 
         </ul>
     </div>
-
-
-
 </div>
 
-<div class="bg-gray-100 min-h-screen py-8">
-    <div class="container mx-auto">
+<div class="container mx-auto p-8">
         <h1 class="text-3xl font-semibold text-center mb-8">Admit Card Details</h1>
-        <div class="text-justify my-10">
-            <!-- Add content related to Admit Card Details here -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a risus a libero viverra congue. Sed euismod tellus id vehicula. Integer sit amet efficitur arcu. Proin ac felis a nulla suscipit vehicula.</p>
-            <!-- Add more content here -->
+        
+        <!-- Search Form -->
+        <form id="searchForm" class="text-center my-4">
+            <div class="space-x-2 mb-4">
+                <label for="admitCardNumber" class="font-semibold">Admit Card Number:</label>
+                <input type="text" id="admitCardNumber" class="input input-bordered input-accent w-full max-w-xs" placeholder="Enter Admit Card Number">
+                <button type="button" class="btn bg-green-400" onclick="searchAdmitCard()">Search</button>
+            </div>
+        </form>
+        
+        <!-- Search Results -->
+        <div id="searchResults" class="text-justify my-10">
+            <!-- Search results will be displayed here -->
+        </div>
+        
+        <!-- PDF Download Links -->
+        <div id="pdfDownloads" class="my-4">
+            <a href="admit_card_1.pdf" class="btn btn-primary" download>Download Admit Card 1 (PDF)</a>
+            <a href="admit_card_2.pdf" class="btn btn-primary" download>Download Admit Card 2 (PDF)</a>
+            <!-- Add more PDF download links as needed -->
         </div>
     </div>
-</div>
 
-
+    <script>
+        function searchAdmitCard() {
+            // Implement the search functionality here.
+        }
+    </script>
 
 </div>
 

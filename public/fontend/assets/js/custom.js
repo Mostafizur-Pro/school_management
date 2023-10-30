@@ -37,7 +37,7 @@ $('.demo1 ul li:last-child').prependTo('.demo1 ul');
 $('.demo1 ul').css('marginTop',-tickerHeight);
 function moveTop(){
 $('.demo1 ul').animate({
-  top : -tickerHeight
+  left : -tickerHeight
 },600, function(){
  $('.demo1 ul li:first-child').appendTo('.demo1 ul');
   $('.demo1 ul').css('top','');

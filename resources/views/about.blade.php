@@ -60,14 +60,14 @@
 
                 <!-- Team Member 2 -->
                 <div class="card shadow-lg p-4">
-                <img src="public/image/teacher/jeams-2023-04-17.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                    <img src="public/image/teacher/jeams-2023-04-17.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
                     <h3 class="text-lg font-semibold mb-2">Jane Smith</h3>
                     <p class="text-gray-600">Head of Curriculum</p>
                 </div>
 
                 <!-- Team Member 3 -->
                 <div class="card shadow-lg p-4">
-                <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                    <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
                     <h3 class="text-lg font-semibold mb-2">Michael Johnson</h3>
                     <p class="text-gray-600">Admissions Coordinator</p>
                 </div>
@@ -90,6 +90,63 @@
 </div>
 
 
+
+<div class="row">
+    <div class="col-xl-12">
+        <div class="notice">
+            <div class="title">
+                <h2>Notice</h2>
+            </div>
+            <div class="notice-item demo1">
+
+
+
+                <ul class="notice-title-item flex gap-5">
+                    <!-- Single Notice Item -->
+                    <li>
+                        <div class="card shadow-lg p-4">
+                            <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                            <h3 class="text-lg font-semibold mb-2">Michael 1</h3>
+                            <p class="text-gray-600">Admissions Coordinator</p>
+                        </div>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <div class="card shadow-lg p-4">
+                            <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                            <h3 class="text-lg font-semibold mb-2">Michael 2</h3>
+                            <p class="text-gray-600">Admissions Coordinator</p>
+                        </div>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <div class="card shadow-lg p-4">
+                            <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                            <h3 class="text-lg font-semibold mb-2">Michael 3</h3>
+                            <p class="text-gray-600">Admissions Coordinator</p>
+                        </div>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <div class="card shadow-lg p-4">
+                            <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                            <h3 class="text-lg font-semibold mb-2">Michael 4</h3>
+                            <p class="text-gray-600">Admissions Coordinator</p>
+                        </div>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <div class="card shadow-lg p-4">
+                            <img src="public/image/teacher/jell-2023-04-16.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mb-4">
+                            <h3 class="text-lg font-semibold mb-2">Michael 5</h3>
+                            <p class="text-gray-600">Admissions Coordinator</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

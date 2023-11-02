@@ -15,7 +15,7 @@
             </a>
         </li>
         <li>
-            <a href="{{url('/contact')}}" style="color: #A0D053;">
+            <a href="{{url('/notice')}}" style="color: #A0D053;">
 
                 Notice
             </a>

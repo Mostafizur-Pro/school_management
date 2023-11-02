@@ -66,7 +66,7 @@
 									<div class="post_single_item">
 										<img src="{{asset('fontend')}}/assets/images/slider/program1.jpg" alt="post_image">
 										<ul>
-											<li><a href="#"><i class="fas fa-calendar-alt"></i>6-5-2019</a></li>
+											<li><a href="#"><i class="fas fa-calendar-alt"></i>6-5-2023</a></li>
 											<li><a href="#"><i class="fas fa-user"></i>admin</a></li>
 										</ul>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -76,7 +76,7 @@
 									<div class="post_single_item">
 										<img src="{{asset('fontend')}}/assets/images/slider/program2.jpg" alt="post_image">
 										<ul>
-											<li><a href="#"><i class="fas fa-calendar-alt"></i>6-5-2019</a></li>
+											<li><a href="#"><i class="fas fa-calendar-alt"></i>6-5-2023</a></li>
 											<li><a href="#"><i class="fas fa-user"></i>admin</a></li>
 										</ul>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -173,7 +173,7 @@
 												<li>
 													<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
 													<span class="notice-post-download">
-														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2020</p>
+														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
 														<a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
 													</span>
 												</li>
@@ -181,7 +181,7 @@
 												<li>
 													<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
 													<span class="notice-post-download">
-														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2020</p>
+														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
 														<a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
 													</span>
 												</li>
@@ -189,7 +189,7 @@
 												<li>
 													<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
 													<span class="notice-post-download">
-														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2020</p>
+														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
 														<a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
 													</span>
 												</li>
@@ -197,7 +197,7 @@
 												<li>
 													<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
 													<span class="notice-post-download">
-														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2020</p>
+														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
 														<a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
 													</span>
 												</li>
@@ -205,7 +205,7 @@
 												<li>
 													<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
 													<span class="notice-post-download">
-														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2020</p>
+														<p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
 														<a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
 													</span>
 												</li>
@@ -242,7 +242,7 @@
 										</div>
 										<div class="links-item">
 											<ul>
-												<li><a href="#"><i class="fas fa-caret-right"></i>Online Magazine 20182-19</a></li>
+												<li><a href="#"><i class="fas fa-caret-right"></i>Online Magazine 2023-24</a></li>
 												<li><a href="#"><i class="fas fa-caret-right"></i>Use of MMC Monitoring App</a></li>
 												<li><a href="#"><i class="fas fa-caret-right"></i>IT Club</a></li>
 												<li><a href="#"><i class="fas fa-caret-right"></i>Science Club</a></li>

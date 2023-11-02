@@ -23,7 +23,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{url('/exam-routine')}}" style="color: #A0D053;">
+                <a href="{{url('/page/exam-routine')}}" style="color: #A0D053;">
                     Exam Routine
                 </a>
             </li>

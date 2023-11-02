@@ -57,7 +57,7 @@
 						<ul>
 							
 							<li><a href="/">Home</a></li>
-							<li><a href="#">Our School</a></li>
+							<!-- <li><a href="#">Our School</a></li> -->
 							<li><a href="{{ url('/about') }}">About Us</a></li>
 							
 							<li><a href="#">Admission</a>

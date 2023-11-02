@@ -25,7 +25,6 @@ Auth::routes();
 
 
 Route::group(['prefix' => '/page', 'namespace' => 'admission'], function () {
-
     Route::get('/teachers', function () {
         return view('layouts.page.teachers');
     });
@@ -44,11 +43,9 @@ Route::group(['prefix' => '/page', 'namespace' => 'admission'], function () {
     Route::get('/faq', function () {
         return view('layouts.page.faq');
     });
-   
 });
 
 Route::group(['prefix' => '/admission', 'namespace' => 'admission'], function () {
-
     Route::get('/admission-notice', function () {
         return view('layouts/admission/admission-notice');
     });

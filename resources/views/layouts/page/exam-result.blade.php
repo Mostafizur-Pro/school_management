@@ -32,6 +32,8 @@
         </ul>
     </div>
 </div>
+
+
 <div class="bg-gray-100 min-h-screen py-8">
     <div class="container mx-auto">
         <h1 class="text-3xl font-semibold text-center mb-8">Exam Result</h1>

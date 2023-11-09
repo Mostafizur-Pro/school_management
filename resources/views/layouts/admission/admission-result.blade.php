@@ -35,37 +35,34 @@
 
 <div class="bg-gray-100 min-h-screen py-8">
     <div class="container mx-auto">
-       
 
-        <h1 class="text-3xl font-semibold text-center mb-8">Admission Result</h1>
 
-        <!-- Your admission result content goes here -->
-        <div class="text-justify my-10">
-            <h2 class="text-xl font-semibold mb-4">Admission Result Announcement</h2>
-            <p>We are pleased to announce the admission results for the academic year [Insert Year]. You can find the results for different grade levels below:</p>
-        </div>
 
-        <div class="text-justify my-10">
-            <h2 class="text-xl font-semibold mb-4">Grade 1 Admission Result</h2>
-            <p>The results for Grade 1 admissions are as follows:</p>
-            <ul class="list-disc ml-6">
-                <li>Student Name 1 - Admitted</li>
-                <li>Student Name 2 - Admitted</li>
-                <li>Student Name 3 - Not Admitted</li>
-                <!-- Add more results -->
-            </ul>
-        </div>
+        <form method="POST" class="my-4">
+            @csrf
+            <div class="mb-4">
+                <label for="roll">Roll Number:</label>
+                <input type="text" class="form-control" id="roll" name="roll" required>
+            </div>
+            <div class="mb-4">
+                <label for="year">Passing Year</label>
+                <select class="form-control" id="year" name="year" required>
+                    @for ($i = 2018; $i <= 2026; $i++) <option value="{{ $i }}">{{ $i }}</option>
+                        @endfor
+                </select>
+            </div>
 
-        <div class="text-justify my-10">
-            <h2 class="text-xl font-semibold mb-4">Grade 2 Admission Result</h2>
-            <p>The results for Grade 2 admissions are as follows:</p>
-            <ul class="list-disc ml-6">
-                <li>Student Name 1 - Admitted</li>
-                <li>Student Name 2 - Admitted</li>
-                <li>Student Name 3 - Not Admitted</li>
-                <!-- Add more results -->
-            </ul>
-        </div>
+            <div class="mb-4">
+                <label for="class">Select Your Class</label>
+                <select class="form-control" id="year" name="year" required>
+                    @for ($i = 1; $i <= 12; $i++) <option value="{{ $i }}">Class {{ $i }}</option>
+                        @endfor
+                </select>
+                
+            </div>
+
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Search</button>
+        </form>
 
         <!-- Add more grade-level results and instructions as needed -->
     </div>

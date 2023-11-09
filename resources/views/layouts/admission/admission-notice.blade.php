@@ -36,47 +36,56 @@
     <div class="container mx-auto">
         <h1 class="text-3xl font-semibold text-center mb-8">Admission Notice</h1>
 
-        <div class="text-justify my-10">
-            <h2 class="text-xl font-semibold mb-4">Admission Process</h2>
 
-            <p><strong>Thank you for your interest in STEP TO SUCCESS SCHOOL!</strong> We are excited to welcome prospective students and their families into our community.</p>
 
-            <p>The admission process at our school is designed to be thorough and transparent. Here are the steps to follow:</p>
-
-            <ol class="list-decimal ml-6">
-                <li>Complete the online admission application form available on our website. Make sure to provide accurate and complete information.</li>
-                <li>Submit the required documents, including academic transcripts, birth certificate, and any other documents specified in the application guidelines.</li>
-                <li>Our admissions team will review your application and documents. If your application is approved, you will be notified for the next steps.</li>
-                <li>Attend an interview or assessment, if required for the grade level you are applying for.</li>
-                <li>Upon successful completion of the admission process, you will receive an admission offer.</li>
-                <li>Complete the enrollment and payment process as instructed in the admission offer.</li>
-            </ol>
-
-            <h2 class="text-xl font-semibold mb-4">Admission Requirements</h2>
-
-            <p>We have specific admission requirements based on the grade level. Please ensure you meet the requirements for the grade you are applying for. Here are some of the common requirements:</p>
-
-            <ul class="list-disc ml-6">
-                <li>Completed application form</li>
-                <li>Transcripts from the previous school (if applicable)</li>
-                <li>Birth certificate</li>
-                <li>Recommendation letters (if required)</li>
-                <li>Interview or assessment (if required)</li>
-                <li>Proof of residence</li>
-                <!-- Add more specific requirements as needed -->
-            </ul>
-
-            <h2 class="text-xl font-semibold mb-4">Important Dates</h2>
-
-            <p>We recommend keeping track of the following important dates for the admission process:</p>
-
-            <ul class="list-disc ml-6">
-                <li>Application submission deadline: [Insert Deadline]</li>
-                <li>Interview/Assessment dates: [Insert Dates]</li>
-                <li>Admission offer notifications: [Insert Date]</li>
-                <li>Enrollment and payment deadline: [Insert Deadline]</li>
-                <!-- Add any additional important dates -->
-            </ul>
+        <div class="">
+            <div class="title">
+                <h2>Notice</h2>
+            </div>
+            <div class="notice-item ">
+                <ul>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                        <span class="notice-post-download">
+                            <p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
+                            <a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
+                        </span>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                        <span class="notice-post-download">
+                            <p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
+                            <a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
+                        </span>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                        <span class="notice-post-download">
+                            <p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
+                            <a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
+                        </span>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                        <span class="notice-post-download">
+                            <p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
+                            <a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
+                        </span>
+                    </li>
+                    <!-- Single Notice Item -->
+                    <li>
+                        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                        <span class="notice-post-download">
+                            <p><i class="fas fa-calendar-alt"></i>20 Feb, 2023</p>
+                            <a target="	_blank" href="{{asset('fontend')}}/assets/files/notice.pdf"><i class="fas fa-download"></i>Download</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

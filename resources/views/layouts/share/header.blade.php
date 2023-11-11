@@ -82,6 +82,7 @@
 							<!-- <li><a href="#">Result</a></li> -->
 							<li><a href="{{url('/notice')}}">Notice</a></li>
 							<li><a href="{{url('/contact')}}">Contact Us</a></li>
+							<li><a href="{{url('/gallery')}}">Gallery</a></li>
 						</ul>
 					</div>
 				</div>
